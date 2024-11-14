@@ -1,0 +1,16 @@
+body {
+    background-image: url(US/us.jpg); /* Certifique-se de que o caminho está correto */
+    background-size: cover; /* Mantém a imagem no centro do site */
+    background-position: baseline; 
+    background-repeat: no-repeat; 
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Largura do container */
+    height: 50vh; /* Altura do container */
+}
+
+img {
+    max-width: 100%; /* Largura do container */
+    max-height: 100%; /* Altura do container */
+    object-fit: contain; /* Ajusta a imagem para caber no container sem cortar */
+}
